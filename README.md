@@ -4,6 +4,13 @@
 This repository contains our exploratory and modeling work for **DataFest 2025**, where the challenge centers on transforming raw, unstructured HR data into **actionable talent intelligence**.
 
 
+### 📽️ Watch Datafest 2025 Video
+
+[![Watch on LinkedIn](assets/datafest.png)](https://www.linkedin.com/posts/datafest-spain_datataejn-inteligenciaartificial-ia-activity-7335194975413895168-Bb0l?utm_source=share&utm_medium=member_desktop&rcm=ACoAACbgGuMB834Xx4tb_oZ-aZRHqzdn6723_zs)
+
+> 🔗 Click the image to view the full demo and presentation on LinkedIn.
+
+
 
 ## 🎯 Context and Objectives
 
