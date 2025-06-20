@@ -1,0 +1,89 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2821
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 1. what does explode do?\
+2. What does counter do? is this a built in method in python?\
+3. most common is a method within counter?\
+4. what is AST?\
+\
+\'97\
+# \uc0\u55358 \u56800  DataFest 2025 \'96 Talent Intelligence Analysis  \
+**Santander Consumer Global Services \'d7 TalentHackers**\
+\
+This repository contains our exploratory and modeling work for **DataFest 2025**, where the challenge centers on transforming raw, unstructured HR data into **actionable talent intelligence**.\
+\
+---\
+\
+## \uc0\u55356 \u57263  Context and Objectives\
+\
+In the context of HR's digital transformation, we aim to tackle real-world challenges involving talent analytics using AI and data science. The notebook `nuevo.html` focuses on preparing and modeling solutions for the **three main problem statements** posed by the event:\
+\
+1. **Deduplicate professional profiles**  \
+   _Identify unique professional profiles across multiple sources._\
+\
+2. **Predict salary based on resume data**  \
+   _Estimate salary based on job title, location, and experience._\
+\
+3. **Predict skills based on role**  \
+   _Infer required skills for a role using context and historical patterns._\
+\
+These challenges must be approached with respect to:\
+- Data duplication and inconsistencies  \
+- Limited salary information (only ~18% of records have it)  \
+- Cultural and structural data gaps  \
+- The need for transparent, justifiable metrics (as per Kaggle guidelines)\
+\
+---\
+\
+## \uc0\u55357 \u56530  Notebook Overview\
+\
+### `nuevo.html`\
+This notebook is our most complete analytical artifact, tackling multiple aspects of the challenge:\
+\
+#### \uc0\u55357 \u56633  Data Overview\
+- Loads a ~14k-row \'d7 2k-column dataset with mixed types\
+- Assesses memory usage and sparsity\
+- Inspects missing values and cardinality\
+\
+#### \uc0\u55357 \u56633  Feature Engineering\
+- Extracts `last registry` timestamp to create temporal features\
+- Categorizes skill sets and work fields (e.g., `comunidad`, `position`)\
+- Aggregates nested features for modeling\
+\
+#### \uc0\u55357 \u56633  Analysis\
+- Explores correlations between `position`, `experience`, and `final_salary`\
+- Checks value distributions and skewness in key numeric fields\
+- Clusters and visualizes profile similarities for deduplication potential\
+\
+#### \uc0\u55357 \u56633  Forecast Alignment\
+- Justifies metrics and modeling approaches\
+- Builds preliminary frameworks for salary prediction and skill inference\
+- Discusses data quality and source consistency (inspired by \'93veracidad y transparencia\'94 slide)\
+\
+---\
+\
+## \uc0\u55356 \u57286  Evaluation & Prize Criteria\
+\
+Based on the judging structure in the slides, our solution strives to address the following:\
+\
+- \uc0\u9989  **Estructura del problema**: Clear problem framing  \
+- \uc0\u9989  **Limpieza y uso de datos**: Handling of missing, duplicate, and noisy entries  \
+- \uc0\u9989  **Model strategy**: Exploratory techniques, feature logic, metric selection  \
+- \uc0\u9989  **Insights**: Skill-to-role mappings, regional salary variance, profile clustering  \
+- \uc0\u9989  **Storytelling**: Clean visual narratives in `nuevo.html`\
+\
+---\
+\
+## \uc0\u55357 \u56507  How to Run\
+\
+1. Clone the repo:\
+   ```bash\
+   git clone https://github.com/youruser/datafest-2025.git\
+   cd datafest-2025\
+}
